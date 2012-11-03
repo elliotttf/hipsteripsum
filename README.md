@@ -1,7 +1,7 @@
 HipsterIpsum
 ============
 
-Generates artisinal filler text.
+Generates artisanal filler text.
 
 ## node.js
 
