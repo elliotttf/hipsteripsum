@@ -14,7 +14,7 @@ HipsterIpsum.get();
 
 ### browser
 
-```javascript
+```html
 <script type="text/javascript" src="hipsteripsum.min.js"></script>
 <script type="text/javascript">
   window.HipsterIpsum.get();
