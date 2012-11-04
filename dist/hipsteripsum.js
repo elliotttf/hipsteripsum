@@ -1,5 +1,9 @@
-/**
- * @fileoverview Ipsum generator class.
+/*
+ * hipsteripsum
+ * https://github.com/elliotttf/hipsteripsum
+ *
+ * Copyright (c) 2012 Elliott Foster
+ * Licensed under the MIT license.
  */
 
 var HipsterIpsum = (function() {
@@ -97,7 +101,7 @@ var HipsterIpsum = (function() {
             }
 
             // Capitalize the first word in the sentence.
-            if (w === 0) {
+            if (w === 0 && typeof word !== 'undefined') {
               word = word.charAt(0).toUpperCase() + word.slice(1);
             }
 
@@ -133,5 +137,6 @@ if (typeof window !== 'undefined') {
   window.HipsterIpsum = HipsterIpsum;
 }
 else {
-  module.exports = HipsterIpsum
+  module.exports = HipsterIpsum;
 }
+

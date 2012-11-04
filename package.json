@@ -1,20 +1,35 @@
 {
   "name": "hipsteripsum",
-  "version": "0.0.0",
   "description": "Generates artisanal filler text.",
-  "main": "hipsteripsum.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.1.0",
+  "homepage": "https://github.com/elliotttf/hipsteripsum",
+  "author": {
+    "name": "Elliott Foster",
+    "email": "elliottf@codebrews.com",
+    "url": "http://codebrews.com"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/elliotttf/hipsteripsum.git"
   },
-  "keywords": [
-    "hipster",
-    "ipsum",
-    "testing"
+  "bugs": {
+    "url": "https://github.com/elliotttf/hipsteripsum/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/elliotttf/hipsteripsum/blob/master/LICENSE-MIT"
+    }
   ],
-  "author": "Elliott Foster",
-  "license": "MIT"
+  "main": "lib/hipsteripsum",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": []
 }

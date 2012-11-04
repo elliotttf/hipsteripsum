@@ -1,21 +1,26 @@
-HipsterIpsum
-============
+# HipsterIpsum
 
 Generates artisanal filler text.
 
-## node.js
+## Getting Started
+Install the module with: `npm install hipsteripsum`
+
+### node
 
 ```javascript
 var HipsterIpsum = require('hipsteripsum');
-
-console.log(HipsterIpsum.get());
+HipsterIpsum.get();
 ```
 
-## browser
+### browser
 
-```html
-<script type="text/javascript" src="hipsteripsum.js" />
+```javascript
+<script type="text/javascript" src="hipsteripsum.min.js"></script>
 <script type="text/javascript">
-  console.log(window.HipsterIpsum.get());
+  window.HipsterIpsum.get();
 </script>
 ```
+
+## License
+Copyright (c) 2012 Elliott Foster
+Licensed under the MIT license.
