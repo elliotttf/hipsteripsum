@@ -1,3 +1,4 @@
+'use strict';
 var hipsteripsum = require('../lib/hipsteripsum.js');
 
 /*
@@ -29,6 +30,13 @@ exports['hipsteripsum'] = {
     test.expect(1);
     // tests here
     test.notEqual(hipsteripsum.get(), '', 'some text should be returned');
+    test.done();
+  },
+  'words': function(test) {
+    test.expect(1);
+    var words = hipsteripsum.getWords(3);
+    var a = words.split(' ');
+    test.ok((a.length >= 3), 'at least three words should be returned');
     test.done();
   }
 };
