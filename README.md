@@ -1,5 +1,7 @@
 # HipsterIpsum
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/elliotttf/hipsteripsum.svg)](https://greenkeeper.io/)
+
 Generates artisanal filler text.
 
 ## Getting Started
